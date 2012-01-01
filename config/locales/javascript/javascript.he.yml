@@ -10,11 +10,11 @@ he:
       add_to_aspect: "הוספה להיבט"
       all_aspects: "כל ההיבטים"
       toggle:
-        few: "ב־{{count}} היבטים"
-        many: "ב־{{count}} היבטים"
+        few: "ב־<%= count %> היבטים"
+        many: "ב־<%= count %> היבטים"
         one: "בהיבט אחד"
-        other: "ב־{{count}} היבטים"
-        two: "ב־{{count}} היבטים"
+        other: "ב־<%= count %> היבטים"
+        two: "ב־<%= count %> היבטים"
         zero: "הוספה להיבט"
     aspect_navigation:
       select_all: "בחר הכל"
@@ -26,7 +26,7 @@ he:
     failed_to_post_message: "פרסום ההודעה נכשל!"
     getting_started:
       alright_ill_wait: "בסדר, אני אמתין."
-      hey: "שלום, {{name}}!"
+      hey: "שלום, <%= name %>!"
       preparing_your_stream: "Preparing your personialized stream..."
     infinite_scroll:
       no_more: "אין רשומות נוספות."
@@ -36,7 +36,7 @@ he:
       public: "ציבורי - הרשומה שלך תהיה גלויה לכולם וניתן יהיה למצוא אותה במנועי חיפוש"
     reshares:
       duplicate: "כבר שיתפת רשומה זו מחדש!"
-    search_for: "חיפוש אחר {{name}}"
+    search_for: "חיפוש אחר <%= name %>"
     show_more: "הצגת עוד"
     timeago:
       day: יום
@@ -56,6 +56,6 @@ he:
       years: "%d שנים"
     videos:
       unknown: "סוג הווידאו אינו ידוע"
-      watch: "צפייה בסרטון וידאו זה באתר {{provider}}"
+      watch: "צפייה בסרטון וידאו זה באתר <%= provider %>"
     web_sockets:
       disconnected: "צינור ההודעות סגור; הודעות לא יוצגו בזמן אמת."
